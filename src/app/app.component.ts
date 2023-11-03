@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Angular-Project';
+
+  childToParent(msg:string){
+    console.log(msg)
+  }
 }

@@ -1,0 +1,14 @@
+.apicalls{
+    border-radius: 5px;
+    border-color:red;
+    border-style: solid;
+    margin-left: 500px;
+    margin-right: 570px;
+    text-align: center;
+    margin-top:75px;
+    font-size:larger;
+    background-color: white;
+}
+.json{
+    color: blue;
+}

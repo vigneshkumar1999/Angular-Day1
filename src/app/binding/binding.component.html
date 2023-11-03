@@ -1,0 +1,11 @@
+
+<div class="binding">
+    <h1>Binding</h1>
+
+<h3>One Way Binding</h3>
+<p [ngStyle]="{'color':'red'}">{{title}}</p>
+
+<h3>Two Way Binding</h3>
+<input [(ngModel)]="title2" placeholder="Two data">
+<p [ngStyle]="{'color':'blue'}"> {{title2}}</p>
+</div>
